@@ -1,0 +1,133 @@
+
+.open-sans-normal> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.btn-primary{
+   background-color: chocolate;
+   font-weight: 700;
+   font-size: 20px;
+   color: white;
+   padding: 18px 35px;
+   border-radius: 5px;
+   border: none;
+}
+
+
+/* nav styles */
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin:0 200px;
+
+}
+
+.nav-title{
+   font-weight:800;
+   font-size: 45px;
+}
+/* shared style */
+.text-primary{
+   color:coral;
+}
+.dark-2{
+   color: rgb(1, 27, 0);
+}
+nav ul li {
+   list-style: none;
+   margin-right: 51px;
+
+}
+nav li a{
+   text-decoration: none;
+   font-size: 20px;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+
+}
+/* banner styles */
+.banner-content{
+   font-size: 45px;
+   font-weight: 600;
+}
+.banner-title{
+   font-weight: bold;
+   font-size: 85px;
+}
+.banner-profile-pic{
+   width: 580px;
+}
+.banner{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 35px 0 230px;
+}
+.banner-content{
+   max-width: 580px;
+}
+/* header */
+.header{
+   background-image: url('../images/developer.png'), url(../images/header_bg.png);
+   background-repeat:no-repeat;
+   background-position: top left, bottom right;
+}
+.section-title{
+   font-size: 35px;
+   font-weight: bold;
+   color: black;
+}
+.section-description{
+   font-size: 18px;
+   color: rgb(14, 13, 13);
+}
+.secondary-bg{
+   background-color: azure;
+}
+
+/* main styles */
+main{
+   max-width: 1140px;
+   padding: 130px 150px;
+   text-align: center;
+   margin-top: 130px;
+}
+
+
+/* about yles */
+.about{
+   border-radius: 10px;
+   padding: 130px 150px;
+   text-align: center;
+}
+.about-items{
+   display: flex;
+   justify-content: space-around;
+}
+.item-description{
+   font-weight: 600;
+}
+.text-center{
+text-align: center;
+color: black;
+}
+/* skills section styles */
+.skills-container{
+   display: flex;
+   gap: 25px;
+}
+.skill{
+padding: 30px;
+box-shadow: 0px 6px 50px 0 rgb(163, 148, 148);
+border-radius: 5px;
+}
+main section{
+   margin-top: 130px;
+   margin-bottom: 130px;
+}
